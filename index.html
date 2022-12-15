@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <title>My Image</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+        background-image: url('https://kvissc.vercel.app/svg/vertical.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family:'Montserrat-SemiBold', sans-serif;
+        color: #FFFFFF;
+      }
+
+      /* Use a flexible grid-based layout */
+      .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .image-container {
+        grid-column: 1 / 2;
+      }
+
+      .image-container img {
+        width: 100%;
+      }
+
+      .text-container {
+        grid-column: 2 / 3;
+      }
+
+      .text-container h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+      }
+
+      .text-container p {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+
+      .text-container a {
+        color: #333;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+      }
+
+      .text-container a:hover {
+        color: #555;
+      }
+
+      .text-container button {
+        background-color: #333;
+        border: none;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+      }
+
+      .text-container button:hover {
+        background-color: #555;
+      }
+
+      /* Use media queries to apply different styles based on screen size and resolution */
+      @media only screen and (max-width: 600px) {
+        /* Make the grid stack vertically on small screens */
+        .container {
+          grid-template-columns: none;
+          grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
+        }
+      }
+    </style>
+  </head>
+  <body>
+      <div class="text-container">
+<br><br>
+        <h1 style="font-size:200%; font-weight:900">&nbsp So it's time to say goodbye...</h1>
+        <p style="font-size:100%; ; font-weight:900">&emsp;We are glad that you have come <br> &emsp;to visit Thailand and KVIS &#10084;&#65039;</p>
+
+        <p style="font-size:80%;">&emsp;&ensp;&ensp; Hope you have had a wonderful time here &#128522</p>
+        <p style="font-size:80%;"> &emsp;&emsp;どうもありがとうございました。またいつかお会いしましょう &#128075; </p>
+        <p style="font-size:80%;"> &emsp;&emsp;ขอบคุณนะ ยินดีที่ได้รู้จักกัน เดินทางปลอดภัย~~</p>
+      </div>
+    </div>
+  </body>
+</html>
